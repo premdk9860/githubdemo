@@ -3,7 +3,7 @@ pipeline
 agent any
 stages
 {
-stages('clone')
+stage('clone')
 {
 steps{
 git 'https://github.com/premdk9860/prem.git'
